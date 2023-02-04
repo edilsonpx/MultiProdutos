@@ -1453,6 +1453,7 @@ cursor: pointer;
     box-shadow: 5px 5px 15px black
     overflow: auto; /* para nao quebra o conteudo*/
     text-align: center;
+    z-index: 1000;
 }
 .modal .conteudoModal img{
     display: inline-block ;

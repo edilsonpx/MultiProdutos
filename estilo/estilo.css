@@ -1,0 +1,1717 @@
+  * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+body {
+
+     margin: 0;
+    background:linear-gradient( to right bottom ,#A020F0 , #0000FF );
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+    background-repeat: no-repeat;
+    
+
+          
+
+}
+
+input{
+    border: 2;
+}
+
+
+img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.center{
+    max-width: 1280px;
+    padding:0 2%;
+    margin:0 auto;
+}
+
+.center2{
+    max-width: 1280px;
+    padding:0 36%;
+    margin:2px auto;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50{
+    padding:0 10px;
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+/*******************************************************************/
+
+.whatsapp-link {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 115px;
+            right: 50px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 50px;
+            box-shadow: 1px 1px 2px #888;
+            z-index: 995;
+        }
+ 
+        .fa-whatsapp {
+            margin-top: 0px;
+
+        }
+
+
+
+        
+
+header{
+border-bottom: 5px solid red; /* deixa botão em 3D  e com borda*/
+ /* position: fixed;   /* fixar menu heade no Topo*/
+   width: 100%;
+   height: 175px; /* Altura dos header*/
+  margin: 0px;
+   z-index: 2;  /* posiçao  em primeiro luga no topo*/
+    background: #000000;
+
+   
+    }
+
+
+
+.logo-nome{
+  
+    text-decoration: none; /* tira o anderline  barra*/ 
+    color:white;
+    font-weight: 700;  /* tamanho negrito */
+    font-family: cambria;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+    top:0px;
+    left: 100px;  
+}
+
+nav.mobile{
+        display: none;
+
+    }
+
+
+/******************************DESKTOP****************************************/
+
+
+nav.desktop ul{
+
+    position: relative;
+    top:6px;
+    list-style-type: none;
+}
+
+nav.desktop li{
+    
+    
+    font-weight: 700;  /* tamanho negrito */
+    font-size: 17px; /* tamanho da fonte */
+    padding:10px 0px;  /* aulta e largura */
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a{
+    transition: 1s; /* efeitos vermelho */
+    color: white;
+    text-decoration: none;
+}
+
+nav.desktop a:hover{
+    color: #FFD700;
+    
+    border-radius: 10px;
+  /*  text-decoration: underline;*/ /* deixa texto com linha */
+}
+
+
+nav.desktop a{
+
+   border: 1px solid red;  /* cor da borta das fotos*/
+
+    border-radius: 10px;
+
+}
+
+
+/****************************** FIM DESKTOP****************************************/
+
+
+
+
+
+#modalExemplo:checked + .modal{
+
+   display: flex;
+
+}
+
+.modal{
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.checkboxModal{
+
+    display: none;
+
+}
+
+.abrirModal:hover{
+cursor: pointer;
+}
+
+.abrir{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+}
+
+
+.modal .fecharModal{
+    top: 50px;
+    right: 10px;
+    color: white;
+    padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid white ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 13px;
+    background: red;
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+    border-radius: 10px; 
+
+}
+
+.modal .fecharModal:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.modal .conteudoModal{
+    width: 75%;
+    height: 50%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black
+    overflow: auto; /* para nao quebra o conteudo*/
+    text-align: center;
+}
+.modal .conteudoModal img{
+    display: inline-block ;
+    max-width: 500px;
+    width: 350px;
+    height: 200px;
+}
+
+.modal .conteudoModal p{
+    display: block;
+   
+}
+
+
+#modalExemplo2:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo3:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo4:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo5:checked + .modal{
+   display: flex;
+}
+
+
+
+
+
+/******* Sleder WRAPPER  PASSA PARA O LADO********/
+
+
+    .wrapper {
+  display: flex;
+  grid-gap: 1rem;
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x;
+  cursor: grab;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* for firefox */
+
+  }
+}
+
+.wrapper::-webkit-scrollbar { /* for chrome */
+  display: none;
+}
+
+
+.wrapper2 {
+  display: flex;
+  grid-gap: 1rem;
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x;
+  cursor: grab;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* for firefox */
+
+  }
+}
+
+.wrapper2::-webkit-scrollbar { /* for chrome */
+  display: none;
+}
+
+.slider {
+  min-width: calc(50% - .5rem);
+  aspect-ratio: 1 / 1;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  scroll-snap-align: start;
+  user-select: none;
+  border-radius: 10px;
+
+}
+
+
+/******* Fim Sleder WRAPPER  PASSA PARA O LADO********/
+
+
+.container-fotos23{
+
+    max-width: 100%;
+    width:  330px;  /* largura*/
+    height: 230px;
+     padding: 0%;
+     border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+    
+    }
+    .container-fotos23:hover{
+    border: 10px solid #F8F8FF;  /* ao colocar cursor em cima da foto as bordas fica vermelha*/
+}
+
+
+
+
+
+.slide-content h2{
+    font-size: 13px;
+padding: 6px;
+border: 2px solid #FFF;  /* cor da borta das fotos*/
+background: #000000;
+ color: #FFF;
+   
+
+}
+
+.slide-content p{
+    font-size: 11px;
+padding: 6px;
+border: 2px solid #FFF;  /* cor da borta das fotos*/
+background: #000000;
+ color: #FFF;
+
+}
+
+
+
+
+
+.card-controle{
+  
+border-radius: 10px;
+width: 300px;
+height: 350px;
+background-color: #F8F8FF;
+overflow: hidden;
+ box-shadow: 25px 10px 8px #000000;
+ box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+ text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ini: Preloader */
+ 
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* cor do background que vai ocupar o body */
+    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+
+
+
+.container-logo{  /* <section class="especialidades"> */
+    padding: 0px 330px;  /* 0px --> Altura  0px --> Afastamento para o lado  */
+ /*   display: inline-block;*/
+
+}
+
+
+
+
+
+    .foto-logo{
+
+max-width: 600%;
+width:  550px; 
+height: 80px;
+margin: 0px;
+
+
+}
+
+
+.it{
+  padding: 5px ; /* Alturas dos cards*/
+
+}
+
+
+    .container-titulo1{  /* <section class="especialidades"> */
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+
+.container-titulo2{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo3{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo4{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo5{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo6{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo7{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo8{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo9{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo10{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo11{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo12{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo13{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo14{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo15{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+
+#descriçao-titulo{
+
+
+    padding: 1%;  /* tamanho das pordas*/
+     border: 5px solid red;  /* cor da borta das fotos*/
+         border-radius: 10px;
+   cursor: pointer;  /*cursor pra foto*/
+   background: #000000;
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+
+
+
+    }
+
+
+
+
+/*************************************************************************/
+
+
+
+
+
+ #container-pedidos-ID{  /* <section class="especialidades"> */
+    padding: 13px 9px;    /*altura dos cards Afastamento dos cards para o lador*/ 
+    display: inline-block;
+}
+
+
+#central-ID{
+    margin: 30px;  /*Altura dos card*/
+    padding: 0px  0px;  /*Altura  espaçamendo dos container card para o lados*/
+    display: inline-block;
+}
+
+
+
+  #descriçao{
+
+
+
+    padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid red ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   /*width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #000000;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+}
+
+#descriçao0{
+
+        padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
+
+
+    }
+
+
+
+
+ #descriçao1{
+
+        padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid red ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #00FF00;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px; 
+}
+
+
+#descriçaoPreço{
+
+        padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+        }
+
+.card{
+    border-radius: 10px;
+width: 300px;
+height: 380px;
+background-color: #F8F8FF;
+overflow: hidden;
+ box-shadow: 25px 10px 8px #000000;
+ box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+ text-align: center;
+
+}
+
+
+.cliente {
+            text-align: center;
+        }
+
+
+  
+    #foto{
+
+max-width: 250%;
+width:  300px; 
+height: 210px; 
+
+}
+
+/*img:hover{
+    border: 10px solid #FF0000;  /* ao colocar cursor em cima da foto as bordas fica vermelha*/
+
+
+nav.tex-rolando {
+    margin: 0px; /* altura das title*/
+    font-size: 20px;
+    text-align: center;
+    color: #FFF; /* cor da fonte*/
+    text-align: center;
+    padding: 0px 10px;  /* almenta borda*/
+    border-radius: 20px ; /* formato redondo*/
+    background: #000000; 
+    border-bottom: 5px solid red; /* deixa botão em 3D  e com borda*/
+    box-shadow: 25px 10px 8px #000000;  
+}
+
+
+/********************************FOOTER INCIO*******************************************/
+
+footer{
+    border-bottom: 15px solid red; /* deixa botão em 3D  e com borda*/
+    background: #000000;
+    padding: 0px 0;
+}
+
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 15px;
+}
+
+footer .Saiba-mais{
+           color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 16px;
+}
+
+/*
+Para arrumar scroll-x do IE e EDGE.
+*/
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+
+
+    header{
+border-bottom: 5px solid #FFD700; /* deixa botão em 3D  e com borda*/
+ /* position: fixed;   /* fixar menu heade no Topo*/
+   width: 100%;
+   height: 220px; /* Altura dos header*/
+  margin: 0px;
+   z-index: 2;  /* posiçao  em primeiro luga no topo*/
+    background: #000000;
+
+   
+    }
+
+
+
+    nav.desktop li{
+    
+    
+    font-weight: 700;  /* tamanho negrito */
+    font-size: 17px; /* tamanho da fonte */
+    padding:10px 0px;  /* aulta e largura */
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+    .container-logo{  /* <section class="especialidades"> */
+    padding: 0px 115px;  /* 0px --> Altura  0px --> Afastamento para o lado  */
+ /*   display: inline-block;*/
+
+}
+
+
+
+
+/*************** MODAL*********************************/
+
+
+#modalExemplo:checked + .modal{
+
+   display: flex;
+
+}
+
+.modal{
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.checkboxModal{
+
+    display: none;
+
+}
+
+.abrirModal:hover{
+cursor: pointer;
+}
+
+.abrir{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+}
+
+
+.modal .fecharModal{
+    top: 50px;
+    right: 10px;
+    color: white;
+    padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid white ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 13px;
+    background: red;
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+    border-radius: 10px; 
+
+}
+
+.modal .fecharModal:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.modal .conteudoModal{
+    width: 75%;
+    height: 50%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black
+    overflow: auto; /* para nao quebra o conteudo*/
+    text-align: center;
+}
+.modal .conteudoModal img{
+    display: inline-block ;
+    max-width: 500px;
+    width: 350px;
+    height: 200px;
+}
+
+.modal .conteudoModal p{
+    display: block;
+   
+}
+
+
+#modalExemplo2:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo3:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo4:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo5:checked + .modal{
+   display: flex;
+}
+
+
+
+
+
+
+
+.it{
+  padding: 5px ; /* Alturas dos cards*/
+
+}
+
+    .container-titulo1{  /* <section class="especialidades"> */
+    margin-top: 15px;
+    text-align: center;
+
+}
+.container-titulo2{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo3{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo4{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo5{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo6{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo7{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo8{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo9{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo10{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo11{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo12{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo13{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo14{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo15{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+
+#descriçao-titulo{
+    padding: 1%;  /* tamanho das pordas*/
+     border: 7px solid #FFD700;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   background: #000000;
+    font-size: 20px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+    text-align: center;
+}
+
+.card-titulo{
+
+     text-align: center;
+      color: #FFF; /* cor da fonte*/
+     padding: 1%;  /* tamanho das pordas*/
+     border: 7px solid #FFF;  /* cor da borta das fotos*/
+   background: #000000;
+    border-radius: 5px ; /* formato redondo*/
+
+ }
+
+
+
+/*************************************************************************/
+
+#container-pedidos-ID{  /* <section class="especialidades"> */
+    padding: 13px 20px;    /*altura dos cards Afastamento dos cards para o lador*/ 
+    display: inline-block;
+}
+
+
+#central-ID{
+    margin: 30px;  /*Altura dos card*/
+    padding: 0px  10px;  /*Altura  espaçamendo dos container card para o lados*/
+    display: inline-block;
+}
+
+
+
+
+
+
+  #descriçao{
+
+
+     padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid red ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   /*width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #000000;
+    font-size: 12px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
+    }
+
+     #descriçao1{
+
+
+     padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid red ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   /*width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 12px;
+       background: #00FF00;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;   
+ 
+ 
+}
+
+.card{
+    border-radius: 10px;
+width: 250px;
+height: 355px;
+background-color: #F8F8FF;
+ box-shadow: 25px 10px 8px #000000;
+ text-align: center;
+ overflow: hidden; /* fazer com quer a foto e o card fique com a borda redondo */
+ box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+
+}
+
+  
+    #foto{
+
+max-width: 250%;
+width:  250px; 
+height: 210px; 
+
+}
+
+/*img:hover{
+    border: 10px solid #FF0000;  /* ao colocar cursor em cima da foto as bordas fica vermelha*/
+
+
+nav.tex-rolando {
+    margin: 0px; /* altura das title*/
+    font-size: 20px;
+    text-align: center;
+    color: white; /* cor da fonte*/
+    text-align: center;
+    padding: 0px 10px;  /* almenta borda*/
+    border-radius: 20px ; /* formato redondo*/
+    background: #000000; 
+    border-bottom: 5px solid #F8F8FF; /* deixa botão em 3D  e com borda*/
+    box-shadow: 25px 10px 8px #000000;  
+}
+
+
+/********************************FOOTER INCIO*******************************************/
+
+footer{
+    border-bottom: 15px solid #FFD700; /* deixa botão em 3D  e com borda*/
+    background: #000000;
+    padding: 0px 0;
+}
+
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 15px;
+}
+
+footer .Saiba-mais{
+           color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 16px;
+}
+
+/*
+Para arrumar scroll-x do IE e EDGE.
+*/
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+.center2{
+    
+    padding:0 28%;
+    margin:2px auto;
+}
+
+
+    .w50{
+        padding:20px;
+        width: 50%;
+    }
+
+ 
+  @media screen and (max-width: 700px){
+
+
+
+
+
+
+    header{
+border-bottom: 5px solid red; /* deixa botão em 3D  e com borda*/
+  position: fixed;   /* fixar menu heade no Topo*/
+   width: 100%;
+   height: 70px; /* Altura dos header*/
+  margin: 0px;
+   z-index: 2;  /* posiçao  em primeiro luga no topo*/
+    background: #000000;
+
+   
+    }
+
+
+
+       .logo {
+  
+    text-decoration: none; /* tira o anderline  barra*/ 
+    color:white;
+    font-weight: 700;  /* tamanho negrito */
+    font-family: cambria;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    top:-1px;  
+   left: 10px;
+}
+
+
+
+    nav.desktop{
+        display: none;
+    }
+
+/*********************BOTAO MOBILE ************************************/
+
+nav.mobile{
+        display: block;
+    }
+
+
+.botao-menu-mobile{
+    font-size: 24px;
+     cursor: pointer;
+        color: white;
+         margin-top: 20px; /*Altura*/
+         padding: 0  20px; /* Afastamento para esquerda*/
+}
+
+nav.mobile  ul{
+
+        top: 70px;
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        width: 100%;   /* tamanho  das bordas do menu */
+        display: none;
+        text-align: center;
+       
+       
+    }
+
+     nav.mobile li{
+
+        font-weight: 700; /* fonte */ 
+        width: 100%;
+        display: block;
+        background: #000000;
+        border-bottom: 7px solid red; /* deixa botão em 3D  e com borda*/ 
+        font-size: 17px;
+        padding:8px 0;  /* tamanho das bolas*/
+        border-radius: 20px ; /* formato redondo*/
+
+
+
+    }
+
+     nav.mobile li a{
+       display: block;
+        color: #FFF;
+        text-decoration: none;
+}
+
+
+
+
+/*************************************************************************/
+
+
+
+
+
+/*********************FIM BOTAO MOBILE************************************/
+
+
+
+.container-logo{  /* <section class="especialidades"> */
+    padding: 0px 0px;  /* 0px --> Altura  0px --> Afastamento para o lado  */
+    display: inline-block;
+}
+
+.central-logo{
+    margin:0px;
+    padding: 0px 0px;  /* espaçamendo dos itens pros lados*/
+    display: inline-block;
+}
+
+.card-logo{
+    border-radius: 10px;
+width: 295px;
+height: 68px;
+background-color: #77899; 
+ text-align: center;
+
+ /*width: 1350px;
+height: 285px;
+*/
+}
+
+    .foto-logo{
+
+max-width: 600%;
+width:  310px; 
+height: 65px;
+margin: 0px;
+
+
+}
+
+
+
+    /****************************************************************/
+
+
+
+
+/*********************FIM BOTAO MOBILE************************************/
+
+
+}
+
+.it{
+  padding: 5px ; /* Alturas dos cards*/
+
+}
+
+    .container-titulo1{  /* <section class="especialidades"> */
+    margin-top: 70px;
+    text-align: center;
+
+}
+.container-titulo2{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo3{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo4{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo5{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo6{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo7{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo8{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo9{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo10{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo11{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo12{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo13{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo14{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+.container-titulo15{  /* <section class="especialidades"> */
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+
+#descriçao-titulo{
+    padding: 1%;  /* tamanho das pordas*/
+     border: 5px solid red;  /* cor da borta das fotos*/
+         border-radius: 10px;
+   cursor: pointer;  /*cursor pra foto*/
+   background: #000000;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+
+}
+
+
+
+/*************************************************************************/
+
+
+
+
+    #container-pedidos-ID{
+    padding: 10px 2.6px;  /*altura dos cards Afastamentopara lador*/ 
+     text-align: center;
+}
+
+    #central-ID{
+    margin: 0px;
+    padding: 0px ;  /* alturas das bolsas*/
+    flex-direction: column; /* deixa o texto em coluna*/
+}
+
+
+
+.card{
+    border-radius: 10px;
+width: 184px;
+height: 390px;
+background-color: #F8F8FF;
+overflow: hidden;
+box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
+ text-align: center;
+
+}
+
+
+    #foto{
+
+    max-width: 100%;
+    width:  184px;  /* largura*/
+    height: 220px;
+    padding: 0px;
+   cursor: pointer;  /*cursor pra foto*/
+   text-align: center;
+     
+    }
+
+
+
+    #descriçao{
+
+        padding: 0%;  /* tamanho das pordas*/
+     border: 3px solid red;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #000000 ;
+    font-size: 13px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #FFF;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
+
+    }
+
+#descriçaoPreço{
+
+        padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
+
+
+    }
+
+    #descriçao0{
+
+        padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+ 
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 13px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
+
+
+    }
+
+    #descriçao1{
+
+        padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 13px;
+       background: #00FF00;
+
+    margin-top: 5px; /* espaçamento da letras*/
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px; 
+     
+}
+
+
+nav.tex-rolando {
+    margin: 12px; /* altura das title*/
+    font-size: 20px;
+    text-align: center;
+    color: #FFF; /* cor da fonte*/
+    text-align: center;
+    padding: 0px 10px;  /* almenta borda*/
+    border-radius: 20px ; /* formato redondo*/
+    background: #000000; 
+    border-bottom: 5px solid red; /* deixa botão em 3D  e com borda*/
+    box-shadow: 25px 10px 8px #000000;  
+}
+
+
+
+
+/*******************************************************************************/
+
+
+
+
+.cliente {
+            text-align: center;
+        }
+
+
+
+
+ #descriçaoModal{
+
+    padding: 2%;  /* tamanho das pordas*/
+    border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 16px;
+    background: #00FF00;
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+    border-radius: 10px; 
+    
+     
+}
+
+
+#descriçao1Modal{
+
+    padding: 2%;  /* tamanho das pordas*/
+    border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 16px;
+    background: #00FF00;
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+    border-radius: 10px; 
+    margin: 25px;
+    
+     
+}
+
+
+#modalExemplo:checked + .modal{
+
+   display: flex;
+
+}
+
+
+.modal .fecharModal{
+    top: 0px;
+    right: 0px;
+    color: white;
+    padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid white ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+    font-size: 13px;
+    background: red;
+    color: #000000;
+    font-weight: 1000; /* fonte com borda negrito */
+    border-radius: 10px; 
+
+    }
+
+.modal{
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.checkboxModal{
+
+    display: none;
+
+}
+.abrirModal:hover{
+cursor: pointer;
+}
+
+.abrir{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   background: #00FF00;
+}
+
+
+.modal .fecharModal:hover{
+  cursor: pointer;
+  color: white;
+
+}
+
+.modal .conteudoModal{
+    width: 90%;
+    height: 70%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black
+    overflow: auto; /* para nao quebra o conteudo*/
+    text-align: center;
+
+  
+}
+.modal .conteudoModal img{
+    display: inline-block ;
+    max-width: 510px;
+    width: 300px;
+    height: 300px;
+}
+
+.modal .conteudoModal p a{
+    display: block;
+
+   
+}
+
+
+
+
+/******************************* MODAL EXEMPLO 2 **************************************/
+
+
+#modalExemplo2:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo3:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo4:checked + .modal{
+   display: flex;
+}
+
+#modalExemplo5:checked + .modal{
+   display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************/
+
+
+footer{
+    border-bottom: 10px solid red ; /* deixa botão em 3D  e com borda*/
+    background: #000000;
+    padding: 10px 0;
+    margin-top: 25px;
+
+}
+
+footer.fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 16px;
+
+}
+
+    footer .Saiba-mais{
+           color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 16px;
+  }
+
+}
+
+/*Para arrumar scroll-x do IE e EDGE.*/
+
+body{
+    overflow-x: hidden;
+    
+   }
+}
+/***************************FIM FOOTER*************************************/
+
+
+  }

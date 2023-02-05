@@ -1490,12 +1490,15 @@ cursor: pointer;
 }
 
 .abrir{
+justify-content: center;
+    text-align: center;
+    display: flex;
    
     display: flex;
    background: #00FF00;
    border-radius: 5px;
    padding: 5px;
-   right: 10px;
+   
 }
 
 

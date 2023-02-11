@@ -1398,6 +1398,19 @@ margin: 0px;
 }
 
 
+#container-pedidos-ID-Bane{
+    padding: 10px 2.6px;  /*altura dos cards Afastamentopara lador*/ 
+     text-align: center;
+}
+
+
+    #central-ID-Bane{
+    margin: 0px;
+    padding: 0px ;  /* alturas das bolsas*/
+    flex-direction: column; /* deixa o texto em coluna*/
+}
+
+
 
 .card{
     border-radius: 10px;

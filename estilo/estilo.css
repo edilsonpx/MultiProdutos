@@ -677,11 +677,11 @@ nav.tex-rolando {
 
 .contador1{
 
-    border: 3px solid red;
+    border: 1px solid #2E64FE;
 border-radius: 6px; 
 /*display: inline;*/
 background: red; 
-width: 368px; 
+width: 374px; 
 height: 150px;
 margin:10px;
 }

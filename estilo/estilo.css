@@ -414,6 +414,10 @@ cursor: pointer;
    display: flex;
 }
 
+#modalExemplo6:checked + .modal{
+   display: flex;
+}
+
 /****************************** FIM MODAL *************************************/
 
 /* ini: Preloader */
